@@ -1,10 +1,11 @@
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
-      <p>"I am learning React"</p>
+      <h1>Let's get Started</h1>
+      <ExpenseItem></ExpenseItem>
     </div>
   )
 }
